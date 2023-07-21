@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Mortgage App
+        </title>
+    </head>
+    <body>
+        <div class="mainForm">
+            <a href="https://www.rocketmortgage.com/learn/how-to-buy-a-house" target="_blank">Learn More!</a>
+            <form action="" class="form-index" onsubmit="saveApplication()">
+                <center>
+                    <div  class="b">
+                        <input type="text" class="a" name="" id="fname" placeholder="First Name" required>
+                    </div>    
+                    <div  class="b">
+                        <input class="a" type="text" name="" id="lname" placeholder="Last Name" required>
+                    </div>
+                    <div  class="b">
+                        <input type="number" class="a" name="" id="ssn" placeholder="Social Security #" required>
+                    </div>   
+                    <div  class="b">
+                        <input class="a" type="email" name="" id="email" placeholder="Email" required>
+                    </div>
+                    <div  class="b">
+                        <input type="number" class="a" name="" id="phone" placeholder="Phone #" required>
+                    </div>  
+                    <div class="b">
+                        <small style="border: solid; border-color: black;
+                         color: black; background-color: white;
+                         padding: 12px 20px">DOB</small>
+                        <input type="date" class="a dob" name="" id="DOB" required>
+                    </div>
+                    <div  class="b">
+                        <input type="number" class="a" name="" id="income" placeholder="Income (Monthly)" required>
+                    </div>                                                   
+                    <div  class="b">
+                        <input type="submit" class="submit" value="Submit">
+                        <input type="reset" class="reset" value="Clear">
+                    </div>
+                    <div class="b">
+                        <label for="">Click checkbox for consent for background check?</label>
+                        <input type="checkbox" class="check" name="" id="" required>
+                    </div> 
+                </center> 
+            </form>
+        </div>
+        <script defer>
+            window.alert('Welcome! Note: The form does not submit anything.');
+        </script>
+    </body>
+    <footer id>
+        <div class="footer">
+            <h2>Mortgage Application</h2>
+        </div>
+    </footer>
+</html>

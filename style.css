@@ -1,0 +1,79 @@
+#header{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    text-decoration:underline;
+    margin: auto;
+    font-size: 40px;
+    float: left;
+
+}
+.textMain{
+    font: size 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url('https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmVhdXRpZnVsJTIwaG91c2V8ZW58MHx8MHx8fDA%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+/*
+.mainForm{
+    border: 2px solid black;
+    padding-bottom: 40%;
+    width: 60%;
+    background-color: peachpuff;
+    opacity: 80%;
+    margin: 0 auto;
+
+}*/
+
+.footer{
+    border: 2px solid black;
+    width: 44%;
+    margin-top: 10px;
+    background-color: khaki;
+    opacity: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.a{
+    background-color: khaki;
+    margin: 10px auto;
+    padding: 12px;
+    width: 70%;
+    background-color: white;
+    border-color: white;
+    border:solid;
+    opacity: 80%;
+    border-radius: 4px;
+    }
+
+.b{
+    margin: 0 auto;
+}
+
+.form-index{
+    margin: 0 auto;
+    width: 60%;
+    justify-content: center;
+    }
+.dob{
+    width: 60%;
+}
+
+.submit{
+    padding: 12px;
+}
+.reset{
+    padding: 12px;
+}
+
+.check{
+    width: 20px;
+    height: 20px;
+}
